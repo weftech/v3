@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from williamfelker.com/2017/02/20/nomad/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2018 05:00:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+
+	<title>Nomad</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="../../../../assets/favicon.ico">
+
+	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic%7CMontserrat:400,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="../../../../assets/css/style7672.css?v=e9b06ea6be" />
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74805705-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-W2Q4MB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'http://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W2Q4MB');</script>
+<!-- End Google Tag Manager -->
+
+	<!--[if lt IE 9]>
+	<script src="/assets/js/html5.js?v=e9b06ea6be"></script>
+	<![endif]-->
+
+	<link rel="canonical" href="index.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="wf" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Nomad" />
+    <meta property="og:description" content="Nomad is a platform developed by Ideo CoLab for the purpose of increasing access to and usability of the more than 3 trillion untapped data streams. I created developer documentation, including narratives of applications for nomad based on emerging technologies,..." />
+    <meta property="og:url" content="http://williamfelker.com/2017/02/20/nomad/" />
+    <meta property="og:image" content="http://williamfelker.com/content/images/2017/02/nomad_energyexample.jpg" />
+    <meta property="article:published_time" content="2017-02-20T06:04:00.000Z" />
+    <meta property="article:modified_time" content="2018-01-10T07:54:25.585Z" />
+    <meta property="article:tag" content="A decentralized messaging platform" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nomad" />
+    <meta name="twitter:description" content="Nomad is a platform developed by Ideo CoLab for the purpose of increasing access to and usability of the more than 3 trillion untapped data streams. I created developer documentation, including narratives of applications for nomad based on emerging technologies,..." />
+    <meta name="twitter:url" content="http://williamfelker.com/2017/02/20/nomad/" />
+    <meta name="twitter:image:src" content="http://williamfelker.com/content/images/2017/02/nomad_energyexample.jpg" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "wf",
+    "author": {
+        "@type": "Person",
+        "name": "William Felker",
+        "image": "http://williamfelker.com/content/images/2016/04/DSC02755-ARW.jpg",
+        "url": "http://williamfelker.com/author/william",
+        "sameAs": "http://www.williamfelker.com",
+        "description": "Trying to leave the world a little better then I found it."
+    },
+    "headline": "Nomad",
+    "url": "http://williamfelker.com/2017/02/20/nomad/",
+    "datePublished": "2017-02-20T06:04:00.000Z",
+    "dateModified": "2018-01-10T07:54:25.585Z",
+    "image": "http://williamfelker.com/content/images/2017/02/nomad_energyexample.jpg",
+    "keywords": "A decentralized messaging platform",
+    "description": "Nomad is a platform developed by Ideo CoLab for the purpose of increasing access to and usability of the more than 3 trillion untapped data streams. I created developer documentation, including narratives of applications for nomad based on emerging technologies,..."
+}
+    </script>
+
+    <script type="text/javascript" src="../../../../shared/ghost-url.min7672.js?v=e9b06ea6be"></script>
+<script type="text/javascript">
+ghost.init({
+	clientId: "ghost-frontend",
+	clientSecret: "cfb117af3da3"
+});
+</script>
+    <meta name="generator" content="Ghost 0.7" />
+    <link rel="alternate" type="application/rss+xml" title="wf" href="../../../../rss/index.html" />
+</head>
+<body class="post-template tag-a-decentralized-messaging-platform">
+	<div id="page" class="site">
+		<header class="site-header">
+	<div class="inner-wide">
+		<h1 class="site-title"><a href="../../../../index.html">wf</a></h1>
+		<nav class="site-navigation" role="navigation">
+	<h2 class="screen-reader-text">Explore Website</h2>
+	<ul class="menu">
+		<li class="menu-item resume" role="presentation"><a href="http://www.williamfelker.com/resume">Resume</a></li>
+		<li class="menu-item about" role="presentation"><a href="http://www.williamfelker.com/about">About</a></li>
+	</ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+		<!-- <a class="sidebar-toggle"><span class="screen-reader-text">Open Sidebar</span><span class="icon" aria-hidden="true"></span></a> -->
+	</div><!-- .inner-wide -->
+</header><!-- .site-header -->
+		
+<main class="site-main" role="main">
+	<div class="site-content">
+
+		<article class="post tag-a-decentralized-messaging-platform">
+			<header class="cover post-header">
+				<div class="cover-bg" style="background-image: url(../../../../content/images/2017/02/nomad_energyexample.jpg)"></div>
+				<div class="cover-content">
+					<div class="inner">
+						<div class="tag-links">
+							<a href="../../../../tag/a-decentralized-messaging-platform/index.html">A decentralized messaging platform</a>
+						</div><!-- .tag-links -->
+						<h1 class="post-title">Nomad</h1>
+						<a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
+					</div><!-- .inner -->
+				</div><!-- .cover-content -->
+			</header><!-- .cover -->
+			<div class="post-content inner">
+				<p>Nomad is a platform developed by <a href="http://www.ideocolab.com/">Ideo CoLab</a> for the purpose of increasing access to and usability of the more than 3 trillion untapped data streams. I created <a href="https://weftech.gitbooks.io/nomad-quickstart-guide/content/">developer documentation</a>, including narratives of applications for nomad based on emerging technologies, and developed working prototypes during workshops with clients.  </p>
+
+<h2 id="hypotheticalapplications">Hypothetical Applications</h2>
+
+<p>As part of supporting the launch of the nomad platform, our team developed industry-specific examples of the web protocol at work.</p>
+
+<table style="width:100%">  
+  <tr>
+    <th style="width:50%">Nomad x Home Insurance</th>
+    <th style="width:50%">Nomad x Food Production</th> 
+  </tr>
+<tr>  
+    <td style="vertical-align:top"><img src="../../../../content/images/2017/02/1-WXiO2W5Q_pkRfBGBthI_NQ.gif" alt="Mountain View" ></td>
+    <td style="vertical-align:top"><img src="../../../../content/images/2017/02/1-7P4Mk1zubF0daNs9c4151Q-1.png" alt="Mountain View" "></td> 
+  </tr>
+<tr>  
+  <tr>
+    <td style="vertical-align:top">Nomad might support an AirBnB host by monitoring their appliances and valuables, advocating on their behalf if a breakage or misuse occurs, and ensuring comprehensive accountability, coverage, and repair.</td>
+    <td style="vertical-align:top">We imagined what would happen if Nomad intervened in the production and transit process of goods between two fishermen, a restaurant, and a shelter. How might we use streaming data to more intelligently consume our diminishing available resources?</td> 
+  </tr>
+  <tr>
+    <td style="vertical-align:top"><a href="https://medium.com/@weftech/nomad-x-home-insurance-cf1cb4d39df1">Continue Reading ...</a></td>
+    <td style="vertical-align:top"><a href="https://medium.com/@weftech/nomad-x-food-production-90937e6635cc">Continue Reading ...</a></td> 
+  </tr>
+</table>
+
+<table style="border: none; width:100%;">  
+  <tr>
+    <th style="width:50%">Nomad x City Development</th>
+    <th style="width:50%">Nomad x Supply Chains</th> 
+  </tr>
+<tr>  
+    <td style="vertical-align:top"><img src="../../../../content/images/2017/02/Screen_Shot_2017-02-26_at_8_49_53_PM.png" alt="Mountain View" ></td>
+    <td style="vertical-align:top"><img src="../../../../content/images/2017/02/1-ei3B6L254gnuIpzMU47QiQ-1.png" alt="Mountain View" "></td> 
+  </tr>
+<tr>  
+  <tr>
+    <td style="vertical-align:top">Nomad could leverage real-time data to uncover insights about an urban locale and identify valuable development opportunities. </td>
+    <td style="vertical-align:top">Supply chains are sets of long branching trees of dependencies working in tandem to produce a suite of products. Properties of the current method of organization and purchase such as delivery delays, order batching, shortage gaming, and sales and price discounts all contribute to billions of losses and a waste of natural resources.  Nomad could bring far greater efficiencies to a cumbersome process.</td> 
+  </tr>
+
+    <td style="vertical-align:top"><a href="https://medium.com/@weftech/nomad-x-city-development-a7ba619548ca">Continue Reading ...</a>
+</td>  
+    <td style="vertical-align:top"><a href="https://medium.com/@weftech/nomad-x-supply-chains-b9688750a5c2">Continue Reading ...</a>
+</td>  
+  </tr>
+</table>  
+
+<hr />
+
+<h2 id="prototypes">Prototypes</h2>
+
+<p>As a result of weekly build sprints for clients I created example nodes using nomad and common public API's. </p>
+
+<table style="border: none; width:100%;">  
+  <tr>
+    <th style="width:50%">Storefront</th>
+    <th style="width:50%">My.ID</th> 
+  </tr>
+<tr>  
+    <td style="vertical-align:top"><img src="../../../../content/images/2018/01/storefront_head.jpg" alt="Mountain View" ></td>
+    <td style="vertical-align:top"><img src="../../../../content/images/2018/01/myId_head.jpg" alt="Mountain View" "></td> 
+  </tr>
+
+  <tr>
+    <td style="vertical-align:top">Storefront is a logistics platform with networked physical presence — i.e. a network of vending machines. Merchants can bid for slots and enter into Ethereum-based smart contracts.</td>
+    <td style="vertical-align:top">MY.ID is an identity management service that allows individuals to create portable, digital, verified identities by leveraging the Know-Your-Customer datasets from their existing financial institutions.</td> 
+  </tr>
+
+    <td style="vertical-align:top"><a href="http://www.ideocolab.com/prototypes/storefront">Continue Reading ...</a>
+</td>  
+    <td style="vertical-align:top"><a href="http://www.ideocolab.com/prototypes/my_id">Continue Reading ...</a>
+</td>  
+  </tr>
+
+</table>
+
+<h3 id="nomadproofofconcepts">Nomad Proof of Concepts</h3>
+
+<table style="width:100%">  
+  <tr>
+    <th style="width:25%">CDC</th>
+    <th style="width:25%">OpenWeather</th> 
+    <th style="width:25%">Microsoft Traffic</th> 
+    <th style="width:25%">Particle</th> 
+
+  </tr>
+  <tr>
+    <td style="vertical-align:top">Example node for connecting the CDC API to Nomad</td>
+    <td style="vertical-align:top">Example node for connecting Open Weather API to Nomad</td> 
+    <td style="vertical-align:top">Example node for connecting Microsoft Traffic API to Nomad</td>
+    <td>Example node for connecting Particle API to Nomad</td> 
+  </tr>
+  <tr>
+    <td style="vertical-align:top"><a href="https://github.com/weftech">Github Repo</a></td>
+    <td style="vertical-align:top"><a href="https://github.com/weftech">Github Repo</a></td>
+<td><a href="https://github.com/weftech">Github Repo</a></td>  
+    <td style="vertical-align:top"><a href="https://github.com/weftech">Github Repo</a></td>  
+  </tr>
+</table>
+
+<table style="border: none; width:100%;">  
+  <tr>
+    <th style="width:25%">Twitter</th>
+    <th style="width:25%">Instagram</th> 
+    <th style="width:25%">Yahoo Weather</th> 
+    <th style="width:25%">511</th> 
+
+  </tr>
+  <tr>
+    <td style="vertical-align:top">Example node for connecting Twitter API to Nomad</td>
+    <td style="vertical-align:top">Example node for connecting Instagram API to Nomad</td> 
+    <td style="vertical-align:top">Example node for connecting Yahoo Weather API to Nomad</td>
+    <td style="vertical-align:top">Example node for connecting California's 511 system to Nomad</td> 
+  </tr>
+
+  <tr>
+    <td style="vertical-align:top"><a href="https://github.com/weftech/Nomad-Twitter">GitHub Repo</a></td>
+    <td style="vertical-align:top"><a href="https://github.com/weftech/Nomad-Instagram">Github Repo</a></td>
+<td style="vertical-align:top"><a href="https://github.com/weftech/Nomad-YahooWeather">Download</a></td>  
+    <td style="vertical-align:top"><a href="https://github.com/weftech/Nomad-511">Use Node</a></td>  
+  </tr>
+</table>
+			</div><!-- .post-content -->
+			<footer class="post-footer inner">
+				<div class="share-post">
+					
+				<!--
+				<div class="author-box">
+					<img src="/content/images/2016/04/DSC02755-ARW.jpg" alt="William Felker" class="author-avatar" />
+					<h4 class="author-title">About <a href="/author/william/">William Felker</a></h4>
+					<p class="author-description">Trying to leave the world a little better then I found it.</p>
+					<p class="author-links">
+						<span class="author-location"><i class="icon-map-marker" aria-hidden="true"></i> Earth</span>
+						<span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.williamfelker.com" target="_blank">http://www.williamfelker.com</a></span>
+					</p>
+				</div>
+				 -->
+			</footer><!-- .post-footer -->
+		</article><!-- .post -->
+
+		<!--<div class="comments-area inner">
+	<h3 class="comments-title">View Comments</h3>
+	<div id="disqus_thread"></div>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus</a>.</noscript>
+</div><!-- .comments-area -->
+-->
+
+		<nav class="post-navigation" role="navigation">
+			<h2 class="screen-reader-text">Post navigation</h2>
+			<a href="../../21/data-emissions/index.html" class="nav-next">
+				<div class="nav-bg" style="background-image: url(../../../../content/images/2016/02/0Ad9yHP8QdCYBUqKxoiw_Stockholmsnow.jpg)"></div>
+				<div class="nav-inside">
+					<span class="nav-before">Next</span><span class="nav-title">Data Emissions</span><span class="nav-date">February 21, 2017</span>
+				</div>
+			</a>
+			<a href="../../19/intel-labs/index.html" class="nav-previous">
+				<div class="nav-bg" style="background-image: url(../../../../content/images/2016/02/CIP2014_01.png)"></div>
+				<div class="nav-inside">
+					<span class="nav-before">Previous</span><span class="nav-title">Galileo Starter Kit</span><span class="nav-date">February 19, 2017</span>
+				</div>
+			</a>
+		</nav><!-- .post-navigation -->
+
+	</div><!-- .site-content -->
+</main><!-- .site-main -->
+
+		<!--<div class="sidebar">
+</div>
+-->
+		<div class="footer-widgets">
+	<div class="inner-wide">
+		<!--<div class="widget-area">
+
+			<div class="footer-col first">
+				<aside class="widget widget-recent-posts">
+					<h2 class="widget-title">Latest Posts</h2>
+					<div class="recent-posts"></div>
+				</aside><!-- .widget -->
+				<!--
+			</div>
+			<div class="footer-col middle">
+				<aside class="widget widget-instagram">
+					<h2 class="widget-title">wf on @weftech</h2>
+					<div id="instafeed" class="instagram-feed"></div>
+				</aside><!-- .widget -->
+				<!--
+			</div>
+			<div class="footer-col last">
+				<aside class="widget widget-tags">
+					<h2 class="widget-title">Tags</h2>
+					<div class="tagcloud"></div>
+				</aside><!-- .widget -->
+				<!--
+			</div>
+		</div><!-- .widget-area -->
+		<!--
+	</div><!-- .inner-wide -->
+</div><!-- .footer-widgets -->
+
+<footer class="site-footer">
+	<div class="site-info inner-wide">
+		<p>&copy; <a href="../../../../index.html">wf</a> all rights reserved. <br />Powered by <a target="_blank" href="http://www.ghost.org/">Ghost</a>. Hosted on <a target="_blank" href="http://digitalocean.com/">Digital Ocean</a></p>
+	</div><!-- .site-info -->
+</footer><!-- .site-footer -->
+		<div class="overlay"></div>
+	</div><!-- #page -->
+
+	
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="../../../../assets/js/plugins7672.js?v=e9b06ea6be"></script>
+	<script type="text/javascript" src="../../../../assets/js/custom7672.js?v=e9b06ea6be"></script>
+</body>
+
+<!-- Mirrored from williamfelker.com/2017/02/20/nomad/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2018 05:02:01 GMT -->
+</html>
